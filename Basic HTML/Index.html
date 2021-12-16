@@ -1,0 +1,60 @@
+<!DOCTYPE html><!--Declares the document type for the browser-->
+<html lang="en"><!--Hyper Text Markup Language-->
+<head><!--Contains information about the page-->
+    <meta charset="UTF-8"> <!--Encoding: Used when translating machine code into human-readable text and vice versa to be displayed in the browser-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Viewport, Device viewing the page-->
+    <title>Basic HTML</title><!--Title of the website-->
+</head>
+<body><!--Contains the content of the page-->
+    <main><!--A Descriptive tag that indicates the main content of a page-->
+        <h1 id="title">Atomic Coding</h1> <!--The h1 element is used for main headings, it is specified using an ID attribute-->
+        <div><!--The division element is a container for other elements-->
+            <h2>Level 2 Heading</h2> <!--Subheadings from level 2 till level 6-->
+            <h3>Level 3 Heading</h3>
+            <h4>Level 4 Heading</h4>
+            <h5>Level 5 Heading</h5>
+            <h6>Level 6 Heading</h6>
+            <p>
+                Paragraph element containing Lorem ipsum Placeholder text: <br><!--A line break-->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Cupiditate accusamus error ratione fugit voluptas exercitationem suscipit cumque sit. 
+                Libero voluptatem asperiores modi sapiente recusandae, sint ab error alias saepe sit eaque incidunt facere laborum praesentium sequi magni ut repudiandae quisquam aperiam exercitationem. 
+                Sint, amet quas? Doloremque error necessitatibus nisi quo dolorum molestias veniam laboriosam voluptatum iusto iste quis, saepe labore cupiditate eos, aut impedit iure earum quasi ipsa fuga esse sint excepturi quas dolor? Odio illo praesentium repudiandae at odit facere porro ducimus nesciunt. Iusto iure veritatis, vel laboriosam ut ab illum! Enim dolorum deserunt, magni exercitationem incidunt quisquam ad voluptate officiis nesciunt earum eos aliquid harum. Debitis totam nemo optio ipsa quo at, in cupiditate aperiam dolor ullam minima repellendus asperiores nihil, necessitatibus quis ipsam labore voluptate tempore id consequatur doloribus hic. Ex tempore quam excepturi, beatae nobis quae, magni quas possimus voluptate quisquam nihil quod repellat nesciunt ut quaerat praesentium nemo unde optio rerum, quos ad eos ratione rem! Eius blanditiis nisi eum ducimus eligendi beatae quis totam cumque soluta, fugit adipisci expedita nulla ratione, placeat optio nam hic earum ab distinctio porro. Libero rem, nihil blanditiis mollitia officia fuga. Voluptate iure amet quia rerum sequi eius fuga harum odio eveniet, deserunt voluptatum nostrum modi expedita ratione tenetur, eligendi magni laudantium voluptas illum incidunt ex deleniti vitae. Ad, deserunt illo error cupiditate excepturi aut recusandae nisi expedita veniam. Eveniet tempora, harum fugit dicta nulla quisquam neque eligendi voluptatum optio, aperiam architecto totam ex. A aspernatur dignissimos beatae, modi excepturi corporis veritatis perferendis laboriosam amet itaque rem non! In esse, est, error eligendi tenetur, omnis delectus iusto voluptas voluptatem debitis quos laborum ipsa. Quia eum velit deserunt eaque voluptatum exercitationem. Sed optio rerum quaerat qui, aut quis vitae quam id, dolorum at expedita repellat molestiae hic deserunt. Molestiae aut vero expedita incidunt illo nam eius quis deserunt perferendis perspiciatis. Debitis ea at, nihil error assumenda saepe quis tenetur atque iure, quia aspernatur in cum unde necessitatibus est. Omnis reprehenderit provident laudantium iste asperiores sed exercitationem quo repellendus harum vitae et officia, accusantium impedit earum dolorem explicabo sint. Nesciunt minus beatae, recusandae veritatis voluptate reiciendis repudiandae totam libero doloribus, earum voluptas facere nisi! Voluptate, a nihil maxime, quo repellendus consequatur, atque voluptatum totam natus ut molestiae iure at quibusdam repudiandae ipsum non voluptatem consectetur dignissimos doloribus expedita repellat asperiores! Illo fugiat ab amet deserunt dignissimos repellendus id esse corrupti unde illum maiores quae doloremque perspiciatis, nisi inventore commodi iusto molestiae eveniet vel neque quam natus? Deserunt modi animi necessitatibus, perferendis repellendus in distinctio facere quaerat dolores laboriosam fugit? Accusamus odit quasi rerum perspiciatis obcaecati tempora nostrum quas rem, veritatis, asperiores perferendis nobis iure corrupti ipsa doloribus odio dolore. Illo incidunt ratione deserunt hic laboriosam ipsam asperiores, ab officia autem fugit debitis quasi vel dolor eveniet eos molestias tempora totam temporibus ut cum excepturi!
+                Illum quis nesciunt sequi ducimus ipsum ut voluptates porro ullam saepe, voluptatibus nam? 
+                Accusantium recusandae culpa ex tenetur veritatis modi repudiandae, quam fugiat dignissimos sapiente! Dolorum, soluta?
+            </p>
+        </div>
+        <div>
+            <h2>The types of anchors:</h2>
+            <ul><!--Unordered List-->
+                <li>The External Link; <a href="https://www.google.com" target=_blank>Google</a></li><!--List item with an anchor that opens on a seperate page-->
+                <li>The Internal Link; Scroll to<a href="#title"> Top</a></li><!--The ID tells the anchor where to go-->
+                <li>The Dead Link; <a href="#">Link</a></li>
+                <li>The Image Link; 
+                    <a href="https://www.google.com" target="_blank"><img src="Images/Atom-Diagram.png" alt="Picture of an Atom"></a>
+                </li><!--When hovered, a clickable cursor is shown on the image-->
+            </ul>    
+        </div>
+        <div>
+            <h3>Web Form:</h3><!--A form that gathers information from users and sends it to a server using the action attribute-->
+            <form action="">
+                Write something
+                <input type="text" placeholder="Insert Text" required> <br>
+                <label for="Colors">
+                    Pick one or more:
+                    <input type="checkbox" name="Colors" id="Gray" value="Gray" checked> Gray
+                    <input type="checkbox" name="Colors" id="Red" value="Red"> Red
+                    <input type="checkbox" name="Colors" id="Green" value="Green"> Green
+                    <input type="checkbox" name="Colors" id="Blue" value="Blue"> Blue
+                </label> <br>
+                <label for="either-or">
+                    You can only have one:
+                    <input type="radio" name="either-or" id="Cats"> Cats
+                    <input type="radio" name="either-or" id="Dogs"> Dogs
+                </label> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
